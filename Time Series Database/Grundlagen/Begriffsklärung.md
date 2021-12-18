@@ -7,7 +7,17 @@ Als *Big Data* können sehr große Datenmengen oder auch Massendaten bezeichnet 
 
 *Strukturierte Daten* sind in ihrer Ordnung stark vom Menschen geprägt. Sie lassen sich leicht in Tabellen ablegen und verändern sich aufgrund eines festgelegten Schemas in ihrer Struktur nur sehr langsam. *Semistrukturierte Daten* unterliegen keinem festen Schema, da sich Struktur und Inhalte der Datenobjekte kontinuierlich ändern können. Diese Datenobjekte können einerseits atomar mit einem spezifischen Datentyp sein oder sich aus mehreren Datenobjekten zusammensetzen. *Unstrukturierte Daten* weisen keine festen Strukturen auf und können Multimedia-Daten wie beispielsweise Text oder Bild-, Audio- und Video-Daten sein. [5]
 
-##Literaturverzeichnis
+*Zeitreihendaten* oder auch *Zeitseriendaten* (engl.: *Time-Series Data*) sind Sammlungen von Werten, die zum Beispiel durch Messungen gewonnen werden und denen Zeitstempel zugeordnet sind. Diese Zeit-Werte-Zuweisungen werden in aufeinanderfolgenden Zeitintervallen erfasst und durch den festen zeitlichen Ablauf geordnet. Dadurch können Veränderungen der Merkmalsausprägungen von beobachteten Objekten über einen bestimmten Zeitraum beschrieben und auf dieser Basis tiefer gehend analysiert werden. [6][7][8]
+
+
+
+An Big Data werden besondere Anforderungen gestellt, die mit klassischen relationalen Datenbanktechnologien kaum gelöst werden können. Große Datenmengen müssen schnell verarbeitet werden können. Da die Daten physisch verteilt vorliegen, müssen zudem Fragestellungen der Datenkonsistenz, Verfügbarkeit und Skalierbarkeit berücksichtigt werden. Um diese Anforderungen zu erfüllen, können *NoSQL-Technologien* eingesetzt werden. [4]
+
+NoSQL
+
+
+
+## Literaturverzeichnis
 
 [1] K. North, Wissensorientierte Unternehmensführung: Wissensmanagement im digitalen Wandel, 7. Aufl. Wiesbaden: Springer Gabler, 2021.
 
@@ -18,3 +28,9 @@ Als *Big Data* können sehr große Datenmengen oder auch Massendaten bezeichnet 
 [4] D. Fasel und A. Meier, Big data: Grundlagen, Systeme und Nutzungspotenziale. Wiesbaden: Springer Vieweg, 2016.
 
 [5] A. Meier und M. Kaufmann, SQL & NoSQL Databases: Models, languages, consistency options and architectures for Big Data Management. Wiesbaden, Heidelberg: Springer Vieweg, 2019.
+
+[6] S. Fangman, „The Time Has Come for a New Type of Database - DataDrivenInvestor“, DataDrivenInvestor, 28. Jan. 2019, 2019. [Online]. Verfügbar unter: https://medium.datadriveninvestor.com/the-time-has-come-for-a-new-type-of-database-47cf8df1667a. Zugriff am: 10. November 2021.
+
+[7] T. Joos, „Zeitreihendatenbanken für das Speichern von Messdaten“, BigData-Insider, 9. Juli 2021, 2021. [Online]. Verfügbar unter: https://www.bigdata-insider.de/zeitreihendatenbanken-fuer-das-speichern-von-messdaten-a-1034400/. Zugriff am: 17. November 2021.
+
+[8] Whatis.com/de, Zeitreihendatenbank (Time Series Database, TSDB). [Online]. Verfügbar unter: https://whatis.techtarget.com/de/definition/Zeitreihendatenbank-Time-Series-Database-TSDB (Zugriff am: 17. November 2021).
