@@ -8,6 +8,7 @@ Als *Big Data* können sehr große Datenmengen oder auch Massendaten bezeichnet 
 *Strukturierte Daten* sind in ihrer Ordnung stark vom Menschen geprägt. Sie lassen sich leicht in Tabellen ablegen und verändern sich aufgrund eines festgelegten Schemas in ihrer Struktur nur sehr langsam. *Semistrukturierte Daten* unterliegen keinem festen Schema, da sich Struktur und Inhalte der Datenobjekte kontinuierlich ändern können. Diese Datenobjekte können einerseits atomar mit einem spezifischen Datentyp sein oder sich aus mehreren Datenobjekten zusammensetzen. *Unstrukturierte Daten* weisen keine festen Strukturen auf und können Multimedia-Daten wie beispielsweise Text oder Bild-, Audio- und Video-Daten sein. [5]
 
 ##Literaturverzeichnis
+
 [1] K. North, Wissensorientierte Unternehmensführung: Wissensmanagement im digitalen Wandel, 7. Aufl. Wiesbaden: Springer Gabler, 2021.
 
 [2] U. Dulhare, K. Ahmad und K. Bin Ahmad, Machine Learning and Big Data: Concepts, Algorithms, Tools and Applications, 1. Aufl. Erscheinungsort nicht ermittelbar, Boston, MA: Wiley-Scrivener; Safari, 2020.
