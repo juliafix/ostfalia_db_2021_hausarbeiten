@@ -21,7 +21,7 @@ Die Kerntechnologien von NoSQL-Datenbanksystemen sind
 
 Sowohl SQL-basierte als auch NoSQL-basierte Datenbankmodelle haben jeweils ihre Vorteile und Nachteile. Je nach Einsatzbereichen und den damit verbundenen Anforderungen können verschiedene Datenmodelle innerhalb einer Anwendung kombiniert werden. 
 
-## Time Series Databases - Zeitreihendatenbanken
+## Time Series DBMS - Zeitreihen-Datenbankmanagementsysteme
 
 *Zeitreihendaten* oder auch *Zeitseriendaten* (engl.: *Time-Series Data*) sind Sammlungen von Werten, die zum Beispiel durch Messungen gewonnen werden und denen Zeitstempel zugeordnet sind. Diese Zeit-Werte-Zuweisungen werden in aufeinanderfolgenden Zeitintervallen erfasst und durch den festen zeitlichen Ablauf geordnet. Dadurch können Veränderungen der Merkmalsausprägungen von beobachteten Objekten über einen bestimmten Zeitraum beschrieben und auf dieser Basis tiefer gehend analysiert werden. Da Änderungen in Zeitreihendaten oft nicht überschrieben sondern neu eingefügt werden, kann eine Historie der Daten abgebildet werden. [6][7][8]
 
@@ -40,9 +40,27 @@ Im Time Series DBMS können teilweise folgende Funktionen bieten:
 - *Zählung* (engl.: *Counting*)
 - *Löschung* (engl.: *Deletion*)
 - *Maximierung* (engl.: *Maximization*)
-- *Minimierung* (engl.: *Minimization*)
+- *Minimierung* (engl.: *Minimization*) [10]
 
 Beim *Einfügen* einer *Row* (engl. für: *Zeile*) von Zeitreihendaten wird der TSDB ein Eintrag mit einem Zeitstempel und einem dazugehörigen Wert und optional einem *Row-Key* (auch: *Tag Name*) weiteren Werten hinzufügt. Mehrere Zeitreihen können in einer TSDB gespeichert werden, wobei eine Zeitreihe aus einem Namen und mehreren Rows von Zeitreihendaten besteht. Eine Zeitreihe kann für die Gruppierung von Zeitreihendaten auf höherer Ebene verwendet werden. Ein Zeitstempel symbolisiert einen bestimmten Zeitpunktund wird oft mit einer Genauigkeit von Millisekunden angegeben. Der Abstand zwischen zwei Zeitstempeln gibt Aufschluss über die Detailgenauigkeit, mit der Zeitreihendaten gespeichert werden können. Die Granularität der Speicherung von Daten und die Granularität der Abfrage der Daten können unterschiedlich sein. Eine Zeitspanne ist der zeitliche Abstand zwischen zwei Zeitstempeln. Beim Aktualisieren werden eine oder mehrere Rows mit einem konkreten Zeitstempel geändert. Das Lesen und das Löschen erfolgen jeweils für eine oder mehrere Rows mit einem bestimmten Zeistempel oder für die kleinstmögliche Zeitspanne. Das Durchsuchen erfolgt für eine oder mehrere Rows einer bestimmten Zeitspanne. Mit Hilfe der Aggregtionsfunktionen *Durchschnittsberechnung*, *Zusammenfassung*, *Zählung*, *Maximierung* und *Minimierung* können Daten nach bestimmten Kriterien angesammelt werden. Die Ergebnisse einer solchen Abfrage, gruppiert für bestimmte Zeitspannen, werden auch als *Buckets* (engl. für: Behälter) bezeichnet. Der Durchschnitt kann für mehrere Werte einer bestimmten Zeitspanne berechnet werden. Die Zusammenfassung von Zeitreihendaten ebenso wie die Suche nach den Maximal- und Minimalwerten beziehen sich ebenfalls auf eine festgelegte Zeitspanne. [10]
+
+An Time Series DBMS werden zusätzlich zu den oben genannten Funktionen noch weitere Anforderungen gestellt. Diese können wie die Funktionen als Vergleichskriterien für den Vergleich von Time Series DBMS herangezogen werden. Einige werden im Folgenden erläutert.  
+Hochverfügbarkeit (engl.: high availability, kurz: HA) sagt etwas darüber aus, wie viel Prozent der Zeit ein System ohne Ausfall arbeitet. Das Bundesamt für Sicherheit in der Informationstechnik gibt verschiedene Verfügbarkeitsklassen an. Eine Hochverfügbarkeit entspricht danach der Verfügbarkeitsklasse 3 mit einer Mindestverfügbarkeit von 99,99%. Dies entspricht einer Ausfallzeit von höchstens fünf Minuten in einem Monat und einer Ausfallzeit von höchstens 53 Minuten in einem Jahr. [11]  
+Wenn ein System hochverfügbar ist, besteht die Möglichkeit, dass unerwartete Knotenausfälle und 
+
+HA gives the possibility to compensate unexpected node failures and network partitioning. To compensate means that a query must be answered under the mentioned circumstances, but it is not expected that the given answer is always consistent. It is expected that the DBMS uses eventual consistency at least, but since some time series databases do not give any explicit consistency guarantee or depend on DBMS that have configurable consistency guarantees, consistency levels are not further considered. It is also expected that a client needs to know more than one entry point (e. g., IP address) to compensate a node failure of an entry node.
+
+
+scalability
+Horizontales und vertikales Skalieren
+
+load balancing
+
+Tags, Continuous Calculation, Long-term Storage, and Matrix Time Series
+
+Granularity
+
+Interfaces and Extensibility
 
 
 
@@ -67,3 +85,5 @@ Beim *Einfügen* einer *Row* (engl. für: *Zeile*) von Zeitreihendaten wird der 
 [9] M. Fadhel, E. Sekerinski und S. Yao, „A Comparison of Time Series Databases for Storing Water Quality Data“ in Mobile Technologies and Applications for the Internet of Things: Proceedings of the 12th IMCL Conference, Cham, 2019. 
 
 [10] A. Bader, O. Kopp und M. Falkenthal, „Survey and Comparison of Open Source Time Series Databases“ (en), 1617-5468, 2017. [Online]. Verfügbar unter: https://dl.gi.de/handle/20.500.12116/922;jsessionid=E7C67433B85AD0167BC17657C2EA23D9
+
+[11] BSI, „Band G: Kapitel 2: Definitionen“ in HV-Kompendium V 1.6, Bundesamt für Sicherheit in der Informationstechnik, Hg., 2013.
