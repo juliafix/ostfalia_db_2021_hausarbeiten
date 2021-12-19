@@ -9,8 +9,15 @@ Als *Big Data* können sehr große Datenmengen oder auch Massendaten bezeichnet 
 
 An Big Data werden besondere Anforderungen gestellt, die mit klassischen relationalen Datenbanktechnologien kaum gelöst werden können. Große Datenmengen müssen schnell verarbeitet werden können. Da die Daten physisch verteilt vorliegen, müssen zudem Fragestellungen der Datenkonsistenz, Verfügbarkeit und Skalierbarkeit berücksichtigt werden. Um diese Anforderungen zu erfüllen, können *NoSQL-Technologien* eingesetzt werden. [4]
 
-NoSQL
-SQL
+*NoSQL-Technologien* sind Datenbanksysteme, die eine Alternative zu klassischen *relationalen Datenbankmanagementsystemen* (*RDBMS*, kurz für: *Relational Database Management System*) darstellen, bei denen für die Erstellung, Pflege und Administration von strukturierten Daten zumeist *SQL* (kurz für: *Structured Query Language*) eingesetzt wird. In relationalen Datenbanken stehen die Daten in definierten Beziehungen zueinander und werden in Tabellen abgelegt. 
+*NoSQL* wird in den meisten Fällen als *Not only SQL* bezeichnet, allerdings oft als nichtrelationaler (engl.: *nonrelational*) Ansatz verstanden. NoSQL-Datenbankmanagementsysteme sind nicht fest an strukturierte Daten und damit an kein festes Schema gebunden. Eine Architektur, die NoSQL-Technologien einsetzt, unterstützt verteilte Systeme. NoSQL-Datenbankmanagementsysteme folgen dem *CAP-Theorem* (kurz für: *consistency*, *availability*, *partition tolerance*). *Consistency* (engl. für: *Konsistenz*) in einem verteilten System bedeutet, dass nach Durchführung einer Operation die Aktualisierung aller Replikate des geänderten Datensatzes sichergestellt sein muss. *Availability* (engl. für: *Verfügbarkeit*) bezieht sich auf die Verfügbarkeit eines Gesamtsystems und akzeptable Antwortzeiten. *Partition tolerance* (engl. für: *Ausfalltoleranz*) besagt, dass der Ausfall einzelner Knoten oder deren Verbindung untereinander nicht die Stabilität eines Gesamtsystems beeinträchtigt. Bei dem CAP-Theorem müssen mindestens zwei der drei Eigenschaften gegeben sein.  [5]
+
+
+
+NoSQL Versus RDBMS: What’s the Difference, What’s the Point?
+
+Different database models are suitable for different purposes, and the use of various database types within one application can be beneficial if each is used according to its strengths. This concept is called polyglot persistence and allows for both SQL and NoSQL technologies to be deployed within one application.
+
 
 *Zeitreihendaten* oder auch *Zeitseriendaten* (engl.: *Time-Series Data*) sind Sammlungen von Werten, die zum Beispiel durch Messungen gewonnen werden und denen Zeitstempel zugeordnet sind. Diese Zeit-Werte-Zuweisungen werden in aufeinanderfolgenden Zeitintervallen erfasst und durch den festen zeitlichen Ablauf geordnet. Dadurch können Veränderungen der Merkmalsausprägungen von beobachteten Objekten über einen bestimmten Zeitraum beschrieben und auf dieser Basis tiefer gehend analysiert werden. Da Änderungen in Zeitreihendaten nicht überschrieben sondern eingefügt werden, kann eine Historie der Daten abgebildet werden. [6][7][8]
 
