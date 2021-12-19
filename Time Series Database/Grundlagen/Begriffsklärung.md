@@ -7,16 +7,17 @@ Als *Big Data* können sehr große Datenmengen oder auch Massendaten bezeichnet 
 
 *Strukturierte Daten* sind in ihrer Ordnung stark vom Menschen geprägt. Sie lassen sich leicht in Tabellen ablegen und verändern sich aufgrund eines festgelegten Schemas in ihrer Struktur nur sehr langsam. *Semistrukturierte Daten* unterliegen keinem festen Schema, da sich Struktur und Inhalte der Datenobjekte kontinuierlich ändern können. Diese Datenobjekte können einerseits atomar mit einem spezifischen Datentyp sein oder sich aus mehreren Datenobjekten zusammensetzen. *Unstrukturierte Daten* weisen keine festen Strukturen auf und können Multimedia-Daten wie beispielsweise Text oder Bild-, Audio- und Video-Daten sein. [5]
 
+An Big Data werden besondere Anforderungen gestellt, die mit klassischen relationalen Datenbanktechnologien kaum gelöst werden können. Große Datenmengen müssen schnell verarbeitet werden können. Da die Daten physisch verteilt vorliegen, müssen zudem Fragestellungen der Datenkonsistenz, Verfügbarkeit und Skalierbarkeit berücksichtigt werden. Um diese Anforderungen zu erfüllen, können *NoSQL-Technologien* eingesetzt werden. [4]
+
+NoSQL
+SQL
+
 *Zeitreihendaten* oder auch *Zeitseriendaten* (engl.: *Time-Series Data*) sind Sammlungen von Werten, die zum Beispiel durch Messungen gewonnen werden und denen Zeitstempel zugeordnet sind. Diese Zeit-Werte-Zuweisungen werden in aufeinanderfolgenden Zeitintervallen erfasst und durch den festen zeitlichen Ablauf geordnet. Dadurch können Veränderungen der Merkmalsausprägungen von beobachteten Objekten über einen bestimmten Zeitraum beschrieben und auf dieser Basis tiefer gehend analysiert werden. [6][7][8]
 
 *Zeitreihendatenbanken* (engl.: *Time-Series Database*, kurz: *TSDB*) sind darauf spezialisiert, den Umgang mit großen Mengen an Zeitreihendaten zu optimieren. Zeitreihendaten werden fortlaufend mit dem jeweils neuesten Zeitintervall gesammelt, in Zeitreihendatenbanken gespeichert und sind anschließend analysierbar [7]. 
 Zeitreihendaten werden aufgrund ihrer zeitlichen Ordnung meist in einer vorgegebenen Reihenfolge erfasst. Durch die gemeinsame Unterbringung von Datenblöcken des gleichen Zeitbereichs im gleichen Datenbank-Cluster wird ein schnellerer Zugriff auf die Daten und damit eine effizientere Analyse ermöglicht. In Zeitreihendatenbanken sind häufig Funktionen integriert, die für die Analyse erforderlich sind. Sie nutzen beispielsweise Datenaufbewahrungsrichtlinien und unterstützen Bereichsabfragen. [9]
 
-
-An Big Data werden besondere Anforderungen gestellt, die mit klassischen relationalen Datenbanktechnologien kaum gelöst werden können. Große Datenmengen müssen schnell verarbeitet werden können. Da die Daten physisch verteilt vorliegen, müssen zudem Fragestellungen der Datenkonsistenz, Verfügbarkeit und Skalierbarkeit berücksichtigt werden. Um diese Anforderungen zu erfüllen, können *NoSQL-Technologien* eingesetzt werden. [4]
-
-NoSQL
-
+whatis.com
 
 
 ## Literaturverzeichnis
@@ -36,3 +37,5 @@ NoSQL
 [7] T. Joos, „Zeitreihendatenbanken für das Speichern von Messdaten“, BigData-Insider, 9. Juli 2021, 2021. [Online]. Verfügbar unter: https://www.bigdata-insider.de/zeitreihendatenbanken-fuer-das-speichern-von-messdaten-a-1034400/. Zugriff am: 17. November 2021.
 
 [8] Whatis.com/de, Zeitreihendatenbank (Time Series Database, TSDB). [Online]. Verfügbar unter: https://whatis.techtarget.com/de/definition/Zeitreihendatenbank-Time-Series-Database-TSDB (Zugriff am: 17. November 2021).
+
+[9] M. Fadhel, E. Sekerinski und S. Yao, „A Comparison of Time Series Databases for Storing Water Quality Data“ in Mobile Technologies and Applications for the Internet of Things: Proceedings of the 12th IMCL Conference, Cham, 2019. 
