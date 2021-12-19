@@ -30,17 +30,19 @@ Zeitreihendaten werden aufgrund ihrer zeitlichen Ordnung meist in einer vorgegeb
 
 Um einen effizienten Umgang mit den riesigen Datenmengen bewältigen zu können, müssen Datenbankmanagementsysteme entsprechend skalieren können, einhergehend mit der Distribution über mehrere Knoten. Mit Operationen und Transaktionen in geringem Umfang versuchen skalierbare RDBMS eine bessere Skalierbarkeit und höhere Leistung zu erreichen als bei klassischen RDBMS. Für spezielle Anwendungsfälle können demnach RDBMS für Zeitreihendaten eingesetzt werden. NoSQL-DBMS bieten bereits Lösungen für die Verteilung der Daten, mit zwangsläufig schwächeren Relationen der Daten untereinander und nachlassender Konsistenz. Sie sind in der Lage, sehr große Mengen von Zeitreihendaten in sehr kurzer Zeit zu speichern und Abfrge-Operationen auf ihnen durchzuführen. Die Grenzen zwischen NoSQL-DBMS und Time Series DBMS sind daher fließend. [10]
 
-Im Time Series DBMS können folgende Funktionen bieten:  
-- Einfügen (engl.: Insertion)
-- Aktualisierung (engl.: Updating)
-- Lesen (engl.: Reading)
-- Durchsuchen (engl.: Scanning)
-- Durchschnittsberechnung (engl.: Averaging)
-- Zusammenfassung (engl.: Summarization)
-- Zählung (engl.: Counting)
-- Löschung (engl.: Deletion)
-- Maximierung (engl.: Maximization)
-- Minimierung (engl.: Minimization)
+Im Time Series DBMS können teilweise folgende Funktionen bieten:  
+- *Einfügen* (engl.: *Insertion*)
+- *Aktualisierung* (engl.: *Updating*)
+- *Lesen* (engl.: *Reading*)
+- *Durchsuchen* (engl.: *Scanning*)
+- *Durchschnittsberechnung* (engl.: *Averaging*)
+- *Zusammenfassung* (engl.: *Summarization*)
+- *Zählung* (engl.: *Counting*)
+- *Löschung* (engl.: *Deletion*)
+- *Maximierung* (engl.: *Maximization*)
+- *Minimierung* (engl.: *Minimization*)
+
+Beim Einfügen einer *Row* (engl. für: *Zeile*) von Zeitreihendaten wird der TSDB ein Eintrag mit einem Zeitstempel und einem dazugehörigen Wert und optional einem *Row-Key* (auch: *Tag Name*) weiteren Werten hinzufügt. Mehrere Zeitreihen können in einer TSDB gespeichert werden, wobei eine Zeitreihe aus einem Namen und mehreren Rows von Zeitreihendaten besteht. Eine Zeitreihe kann für die Gruppierung von Zeitreihendaten auf höherer Ebene verwendet werden. Ein Zeitstempel symbolisiert einen bestimmten Zeitpunktund wird oft mit einer Genauigkeit von Millisekunden angegeben. Der Abstand zwischen zwei Zeitstempeln gibt Aufschluss über die Detailgenauigkeit, mit der Zeitreihendaten gespeichert werden können. Die Granularität der Speicherung von Daten und die Granularität der Abfrage der Daten können unterschiedlich sein. Eine Zeitspanne ist der zeitliche Abstand zwischen zwei Zeitstempeln. Mit Hilfe der Aggregtionsfunktionen *Durchschnittsberechnung*, *Zusammenfassung*, *Zählung*, *Maximierung* und *Minimierung* können Daten nach bestimmten Kriterien angesammelt werden. Die Ergebnisse einer solchen Abfrage, gruppiert für bestimmte Zeitspannen, werden auch als *Buckets* bezeichnet.
 
 
 
