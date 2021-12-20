@@ -1,4 +1,4 @@
-# Begriffsklärung
+# 2.1 Begriffsklärung
 
 ## Big Data
 Grundsätzlich können *Daten* (engl.: *data*) als Symbole verstanden werden, die außer *Zeichen* oder Zeichenfolgen unter anderem auch akustische Signale, Farben oder Bewegtbilder umfassen können. Werden Daten entsprechend einer Syntax miteinander kombiniert und zusammengefügt, entsteht zwischen den Daten ein Bezug in einem speziellen Kontext. Werden Daten auf diese Art um eine Bedeutung ergänzt, werden daraus *Informationen*. [1] 
