@@ -53,15 +53,17 @@ Die Verfügbarkeit geht häufig zu Lasten der Konsistenz. Einige Time Series DBM
 
 *Load Balancing* (engl. für: Lastverteilung) beschreibt die Möglichkeit, Anfragen gleichmäßig auf mehrere Knoten eines Gesamtsystems zu verteilen. Auf diese Art ist die Auslastung der einzelnen Knoten ausgeglichen. [10]
 
-Die dauerhafte Speicherung (engl.: *long-term storage*) stellt eine Herausforderung für sehr große Datenmengen dar, die beispielsweise durch detaillierte Messwerte mit ihrer vollen Auflösung über einen längeren Zeitraum anfallen. Mögliche Lösungsansätze sind hier die Löschung älterer Datenbestände oder die Speicherung aggregierter Werte von alten Daten, wenn zum Beispiel der Durchschnittswert pro Minute gespeichert wird statt der Werte pro Millisekunde. [10]
+Die *dauerhafte Speicherung* (engl.: *long-term storage*) stellt eine Herausforderung für sehr große Datenmengen dar, die beispielsweise durch detaillierte Messwerte mit ihrer vollen Auflösung über einen längeren Zeitraum anfallen. Mögliche Lösungsansätze sind hier die Löschung älterer Datenbestände oder die Speicherung aggregierter Werte von alten Daten, wenn zum Beispiel der Durchschnittswert pro Minute gespeichert wird statt der Werte pro Millisekunde. [10]
 
-
-(Tags, Continuous Calculation, and Matrix Time Series)
++++
+Downsampling
+When using queries with functions, most TSDBs have the ability to use downsampling for fitting the results when a result over a greater period of time is wanted (e. g., an average for every day of a month and not every millisecond). Downsampling does not mean that you can choose a period of time and get one value for that period. For downsampling two periods must be chosen and a value for each smaller period within the bigger period must be returned. The smaller period is called sample interval.
 
 Granularity
+Granularity describes the smallest possible distance between two timestamps (Sect. 2). When inserting data into a TSDB, the granularity of the input data can be higher than the storage granularity that a TSDB guarantees to store safely. Some TSDB accept data in a smaller granularity than they can store under all circumstances, which leads to aggregated or dropped data.
 
 Interfaces and Extensibility
-
++++
 
 
 ## Literaturverzeichnis
