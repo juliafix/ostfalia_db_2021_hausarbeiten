@@ -2,7 +2,7 @@
 
 ## 2 Grundlagen
 ### 2.1 Begriffsklärung
-[2.1.1]  
+[2.1.1] K. North, Wissensorientierte Unternehmensführung: Wissensmanagement im digitalen Wandel, 7. Aufl. Wiesbaden: Springer Gabler, 2021.  
 [2.1.2]  
 [2.1.3]  
 
