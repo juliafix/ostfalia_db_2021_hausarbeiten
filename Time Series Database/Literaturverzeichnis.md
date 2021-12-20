@@ -29,11 +29,38 @@
 [2.1.13] DB-Engines Enzyklopädie. [Online]. Verfügbar unter: https://db-engines.com/de/article/Partitionierung (Zugriff am: 20. Dezember 2021).
 
 ### 2.2 Geschichte  
-[2.2.1]  
-[2.2.2]  
-[2.2.3]  
+[2.2.1]
+
+[2.2.2]
+
+[2.2.3]
 
 ### 2.3 State of the Art
+[2.3.1]
 
+[2.3.2]
+
+[2.3.3] 
 
 ## 3 Vergleich der Time Series Databases
+### 3.1 InfluxDB
+[3.1.1]
+
+[3.1.2]
+
+[3.1.3] 
+
+### 3.2 GridDB
+[3.2.1]
+
+[3.2.2]
+
+[3.2.3] 
+
+### 3.3 TimescaleDB
+[3.3.1]
+
+[3.3.2]
+
+[3.3.3] 
+
