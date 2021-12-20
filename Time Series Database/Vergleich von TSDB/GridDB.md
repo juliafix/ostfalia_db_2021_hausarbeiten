@@ -1,1 +1,16 @@
+# GridDB
 
+## Datenmodell/-struktur
+relationale, nur tsdb etc. 
+
+## Partionierungsmechanismen
+
+## Replikationsmechanismen
+
+## Unterstützte Programmiersprachen
+
+## APIs und andere Konzeptzugriffe
+
+## Einsatzbereiche
+
+## Vorteile, Nachteile und Besonderheiten
