@@ -31,32 +31,32 @@ Zeitreihendaten werden aufgrund ihrer zeitlichen Ordnung meist in einer vorgegeb
 Um einen effizienten Umgang mit den riesigen Datenmengen bewältigen zu können, müssen Datenbankmanagementsysteme entsprechend skalieren können, einhergehend mit der Distribution über mehrere Knoten. Mit Operationen und Transaktionen in geringem Umfang versuchen skalierbare RDBMS eine bessere Skalierbarkeit und höhere Leistung zu erreichen als bei klassischen RDBMS. Für spezielle Anwendungsfälle können demnach RDBMS für Zeitreihendaten eingesetzt werden. NoSQL-DBMS bieten bereits Lösungen für die Verteilung der Daten, mit zwangsläufig schwächeren Relationen der Daten untereinander und nachlassender Konsistenz. Sie sind in der Lage, sehr große Mengen von Zeitreihendaten in sehr kurzer Zeit zu speichern und Abfrge-Operationen auf ihnen durchzuführen. Die Grenzen zwischen NoSQL-DBMS und Time Series DBMS sind daher fließend. [10]
 
 Im Time Series DBMS können teilweise folgende Funktionen bieten:  
-- *Einfügen* (engl.: *Insertion*)
-- *Aktualisierung* (engl.: *Updating*)
-- *Lesen* (engl.: *Reading*)
-- *Durchsuchen* (engl.: *Scanning*)
-- *Durchschnittsberechnung* (engl.: *Averaging*)
-- *Zusammenfassung* (engl.: *Summarization*)
-- *Zählung* (engl.: *Counting*)
-- *Löschung* (engl.: *Deletion*)
-- *Maximierung* (engl.: *Maximization*)
-- *Minimierung* (engl.: *Minimization*) [10]
+- *Einfügen* (engl.: *insertion*)
+- *Aktualisierung* (engl.: *updating*)
+- *Lesen* (engl.: *reading*)
+- *Durchsuchen* (engl.: *scanning*)
+- *Durchschnittsberechnung* (engl.: *averaging*)
+- *Zusammenfassung* (engl.: *summarization*)
+- *Zählung* (engl.: *counting*)
+- *Löschung* (engl.: *deletion*)
+- *Maximierung* (engl.: *maximization*)
+- *Minimierung* (engl.: *minimization*) [10]
 
 Beim *Einfügen* einer *Row* (engl. für: *Zeile*) von Zeitreihendaten wird der TSDB ein Eintrag mit einem Zeitstempel und einem dazugehörigen Wert und optional einem *Row-Key* (auch: *Tag Name*) weiteren Werten hinzufügt. Mehrere Zeitreihen können in einer TSDB gespeichert werden, wobei eine Zeitreihe aus einem Namen und mehreren Rows von Zeitreihendaten besteht. Eine Zeitreihe kann für die Gruppierung von Zeitreihendaten auf höherer Ebene verwendet werden. Ein Zeitstempel symbolisiert einen bestimmten Zeitpunktund wird oft mit einer Genauigkeit von Millisekunden angegeben. Der Abstand zwischen zwei Zeitstempeln gibt Aufschluss über die Detailgenauigkeit, mit der Zeitreihendaten gespeichert werden können. Die Granularität der Speicherung von Daten und die Granularität der Abfrage der Daten können unterschiedlich sein. Eine Zeitspanne ist der zeitliche Abstand zwischen zwei Zeitstempeln. Beim Aktualisieren werden eine oder mehrere Rows mit einem konkreten Zeitstempel geändert. Das Lesen und das Löschen erfolgen jeweils für eine oder mehrere Rows mit einem bestimmten Zeistempel oder für die kleinstmögliche Zeitspanne. Das Durchsuchen erfolgt für eine oder mehrere Rows einer bestimmten Zeitspanne. Mit Hilfe der Aggregtionsfunktionen *Durchschnittsberechnung*, *Zusammenfassung*, *Zählung*, *Maximierung* und *Minimierung* können Daten nach bestimmten Kriterien angesammelt werden. Die Ergebnisse einer solchen Abfrage, gruppiert für bestimmte Zeitspannen, werden auch als *Buckets* (engl. für: Behälter) bezeichnet. Der Durchschnitt kann für mehrere Werte einer bestimmten Zeitspanne berechnet werden. Die Zusammenfassung von Zeitreihendaten ebenso wie die Suche nach den Maximal- und Minimalwerten beziehen sich ebenfalls auf eine festgelegte Zeitspanne. [10]
 
 An Time Series DBMS werden zusätzlich zu den oben genannten Funktionen noch weitere Anforderungen gestellt. Diese können wie die Funktionen als Vergleichskriterien für den Vergleich von Time Series DBMS herangezogen werden. Einige werden im Folgenden erläutert.  
-Hochverfügbarkeit (engl.: high availability, kurz: HA) sagt etwas darüber aus, wie viel Prozent der Zeit ein System ohne Ausfall arbeitet. Das Bundesamt für Sicherheit in der Informationstechnik gibt verschiedene Verfügbarkeitsklassen an. Eine Hochverfügbarkeit entspricht danach der Verfügbarkeitsklasse 3 mit einer Mindestverfügbarkeit von 99,99%. Dies entspricht einer Ausfallzeit von höchstens fünf Minuten in einem Monat und einer Ausfallzeit von höchstens 53 Minuten in einem Jahr. [11]  
-Wenn ein System hochverfügbar ist, besteht die Möglichkeit, dass unerwartete Knotenausfälle und 
+*Hochverfügbarkeit* (engl.: *high availability*, kurz: *HA*) sagt etwas darüber aus, dass ein System mit hoher Wahrscheinlichkeit korrekt funktioniert und dem Benutzer mit seinen Funktionen zur Verfügung steht. Sie wird in Prozent angegeben. Das Bundesamt für Sicherheit in der Informationstechnik gibt verschiedene Verfügbarkeitsklassen an. Eine Hochverfügbarkeit entspricht danach der Verfügbarkeitsklasse VK3 mit einer Mindestverfügbarkeit von 99,99%. Dies entspricht einer Ausfallzeit von höchstens fünf Minuten in einem Monat und einer Ausfallzeit von höchstens 53 Minuten in einem Jahr. [11]  
+Die Verfügbarkeit kann erhöht werden, indem die verwendeten Komponenten redundant vorgehalten werden und vermieden wird, dass der Ausfall eines einzelnen Bestandteils eines System einen Ausfall des Gesamtsystems mit sich bringt (einzelner Ausfallpunkt, engl.: *Single Point of Failure*, kurz: *SPOF*). [12]
+Die Verfügbarkeit geht häufig zu Lasten der Konsistenz. Einige Time Series DBMS gewährleisten keine Konsistenz oder sie beziehen sich auf andere DBMS, die ihrerseits konfigurierbare Konsistenzgarantien abgeben. [10]
 
-HA gives the possibility to compensate unexpected node failures and network partitioning. To compensate means that a query must be answered under the mentioned circumstances, but it is not expected that the given answer is always consistent. It is expected that the DBMS uses eventual consistency at least, but since some time series databases do not give any explicit consistency guarantee or depend on DBMS that have configurable consistency guarantees, consistency levels are not further considered. It is also expected that a client needs to know more than one entry point (e. g., IP address) to compensate a node failure of an entry node.
+*Skalierbarkeit* (engl.: *scalability*) beschreibt die Fähigkeit eines Systems zur Größenveränderung, um die Leistung zu erhöhen. Bei verteilten Systemen bezieht sich die Skalierbarkeit auf die horizontale Skalierung. Dabei können die Speicherkapazität und die Leistungsfähigkeit durch die Anzahl an Knoten gesteigert werden, indem zu einem bestehenden Systembund zusätzliche Rechnerkomponenten hinzugefügt werden. [4][10]
+
+*Load Balancing* (engl. für: Lastverteilung) beschreibt die Möglichkeit, Anfragen gleichmäßig auf mehrere Knoten eines Gesamtsystems zu verteilen. Auf diese Art ist die Auslastung der einzelnen Knoten ausgeglichen. [10]
+
+Die dauerhafte Speicherung (engl.: *long-term storage*) stellt eine Herausforderung für sehr große Datenmengen dar, die beispielsweise durch detaillierte Messwerte mit ihrer vollen Auflösung über einen längeren Zeitraum anfallen. Mögliche Lösungsansätze sind hier die Löschung älterer Datenbestände oder die Speicherung aggregierter Werte von alten Daten, wenn zum Beispiel der Durchschnittswert pro Minute gespeichert wird statt der Werte pro Millisekunde. [10]
 
 
-scalability
-Horizontales und vertikales Skalieren
-
-load balancing
-
-Tags, Continuous Calculation, Long-term Storage, and Matrix Time Series
+(Tags, Continuous Calculation, and Matrix Time Series)
 
 Granularity
 
@@ -87,3 +87,5 @@ Interfaces and Extensibility
 [10] A. Bader, O. Kopp und M. Falkenthal, „Survey and Comparison of Open Source Time Series Databases“ (en), 1617-5468, 2017. [Online]. Verfügbar unter: https://dl.gi.de/handle/20.500.12116/922;jsessionid=E7C67433B85AD0167BC17657C2EA23D9
 
 [11] BSI, „Band G: Kapitel 2: Definitionen“ in HV-Kompendium V 1.6, Bundesamt für Sicherheit in der Informationstechnik, Hg., 2013.
+
+[12] G. Bengel, Masterkurs Parallele und Verteilte Systeme: Grundlagen und Programmierung von Multicore-Prozessoren, Multiprozessoren, Cluster, Grid und Cloud, 2. Aufl. Wiesbaden: Springer Vieweg, 2015. 
