@@ -42,6 +42,22 @@
 
 [2.3.3] 
 
+### 2.4 Vorteile
+
+[2.4.1] Database trends: The rise of the time-series database. [Online]. Verfügbar unter: https://venturebeat.com/2021/01/15/database-trends-the-rise-of-the-time-series-database/ (Zugriff am: 21. Dezember 2021).
+
+[2.4.2] Zeitreihendatenbank (Time Series Database, TSDB). [Online]. Verfügbar unter:  https://whatis.techtarget.com/de/definition/Zeitreihendatenbank-Time-Series-Database-TSDB (Zugriff am: 21. Dezember 2021).
+
+[2.4.3] An introduction to time series databases. [Online]. Verfügbar unter: https://aiven.io/blog/an-introduction-to-time-series-databases (Zugriff am: 21. Dezember 2021).
+
+### 2.5 Nachteile
+
+[2.5.1] Zeitreihendatenbank (Time Series Database, TSDB). [Online]. Verfügbar unter:  https://whatis.techtarget.com/de/definition/Zeitreihendatenbank-Time-Series-Database-TSDB (Zugriff am: 21. Dezember 2021).
+
+[2.5.2] An Introduction to TimescaleDB. [Online]. Verfügbar unter: https://severalnines.com/database-blog/introduction-timescaledb (Zugriff am: 21. Dezember 2021).
+
+### 2.6 Einsatzgebiete
+
 ## 3 Vergleich der Time Series Databases
 ### 3.1 InfluxDB
 [3.1.1]
