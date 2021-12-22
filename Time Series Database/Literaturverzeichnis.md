@@ -80,9 +80,29 @@
 [3.2.3] 
 
 ### 3.3 TimescaleDB
-[3.3.1]
+[3.3.1] TimescaleDB - Timeseries database for PostgreSQL. [Online]. Verfügbar unter: https://docs.timescale.com/timescaledb/latest/ (Zugriff am: 22. Dezember 2021).
 
-[3.3.2]
+[3.3.2] An Introduction to TimescaleDB. [Online]. Verfügbar unter: https://severalnines.com/database-blog/introduction-timescaledb (Zugriff am: 22. Dezember 2021).
 
-[3.3.3] 
+[3.3.3] Data model. [Online]. Verfügbar unter: https://docs.timescale.com/timescaledb/latest/overview/data-model-flexibility/ (Zugriff am: 22. Dezember 2021).
+
+[3.3.4] TimescaleDB Systemeigenschaften. [Online]. Verfügbar unter: https://db-engines.com/de/system/TimescaleDB (Zugriff am: 22. Dezember 2021).
+
+[3.3.5] Why use TimescaleDB. [Online]. Verfügbar unter: https://docs.timescale.com/timescaledb/latest/overview/core-concepts/#why-use-timescaledb (Zugriff am: 22. Dezember 2021).
+
+[3.3.6] Replication and HA. [Online]. Verfügbar unter: hhttps://docs.timescale.com/timescaledb/latest/how-to-guides/replication-and-ha/ (Zugriff am: 22. Dezember 2021).
+
+[3.3.7] Streaming Replication. [Online]. Verfügbar unter: https://www.postgresql.org/docs/current/warm-standby.html#STREAMING-REPLICATION (Zugriff am: 22. Dezember 2021).
+
+[3.3.8] TimescaleDB Overview. [Online]. Verfügbar unter: https://docs.timescale.com/timescaledb/latest/overview/#accelerated-performance (Zugriff am: 22. Dezember 2021).
+
+[3.3.9] FAQs - Using TimescaleDB. [Online]. Verfügbar unter: https://docs.timescale.com/timescaledb/latest/overview/faq/faq-using-timescaledb/#how-do-i-write-data (Zugriff am: 22. Dezember 2021).
+
+[3.3.10] TimescaleDB vs. influxDB: Zeitreihendatenbanken für das IIoT. [Online]. Verfügbar unter: https://www.inovex.de/de/blog/timescaledb-vs-influxdb-zeitreihen-iiot/ (Zugriff am: 22. Dezember 2021).
+
+[3.3.11] Vergleich zwischen TimescaleDB und InfluxDB. [Online]. Verfügbar unter: https://www.codetd.com/de/article/10924127 (Zugriff am: 22. Dezember 2021).
+
+[3.3.12] Limitations. [Online]. Verfügbar unter: https://docs.timescale.com/timescaledb/latest/overview/limitations/#distributed-hypertable-limitations (Zugriff am: 22. Dezember 2021).
+
+
 
