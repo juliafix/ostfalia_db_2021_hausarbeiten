@@ -58,6 +58,12 @@
 
 ### 2.6 Einsatzgebiete
 
+[2.6.1] Zeitreihendatenbank (Time Series Database, TSDB). [Online]. Verfügbar unter: https://whatis.techtarget.com/de/definition/Zeitreihendatenbank-Time-Series-Database-TSDB (Zugriff am: 22. Dezember 2021).
+
+[2.6.2] An introduction to time series databases. [Online]. Verfügbar unter: https://aiven.io/blog/an-introduction-to-time-series-databases (Zugriff am: 22. Dezember 2021).
+
+[2.6.3] Zeitreihendatenbank: Was es ist und wie es funktioniert. [Online]. Verfügbar unter: https://raima.com/de/time-series-database-what-it-is-and-how-it-works/ (Zugriff am: 22. Dezember 2021).
+
 ## 3 Vergleich der Time Series Databases
 ### 3.1 InfluxDB
 [3.1.1]
