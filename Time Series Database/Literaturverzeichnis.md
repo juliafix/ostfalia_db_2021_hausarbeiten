@@ -29,18 +29,21 @@
 [2.1.13] DB-Engines Enzyklopädie. [Online]. Verfügbar unter: https://db-engines.com/de/article/Partitionierung (Zugriff am: 20. Dezember 2021).
 
 ### 2.2 Geschichte  
-[2.2.1]
-
-[2.2.2]
-
-[2.2.3]
+[2.2.1] T. Dunning und E. Friedman „Time Series Databases - New Ways to Store Data“, O'Reilly, 2015.
 
 ### 2.3 State of the Art
-[2.3.1]
+[2.3.1] DB-Engines Ranking Categories. [Online]. Verfügbar unter: https://db-engines.com/en/ranking_categories (Zugriff am: 23. Dezember 2021).
 
-[2.3.2]
+[2.3.2] InfluxData. „Time Series Database (TSDB) Guide | InfluxDB“. Zugegriffen 23. Dezember 2021. https://www.influxdata.com/time-series-database/.
 
-[2.3.3] 
+[2.3.3] „Time Series DBMS as a new trend?“ Zugegriffen 15. November 2021. https://db-engines.com/de/blog_post/45.
+
+[2.3.4] VentureBeat. „Database Trends: The Rise of the Time-Series Database“, 15. Januar 2021. https://venturebeat.com/2021/01/15/database-trends-the-rise-of-the-time-series-database/.
+
+[2.3.5] inovex GmbH. „TimescaleDB vs. influxDB: Zeitreihendatenbanken für das IIoT“, 4. August 2020. https://www.inovex.de/de/blog/timescaledb-vs-influxdb-zeitreihen-iiot/.
+
+[2.3.6] Stephens, Rachel. „The State of the Time Series Database Market“. Alt + E S V, 3. April 2018. https://redmonk.com/rstephens/2018/04/03/the-state-of-the-time-series-database-market/.
+
 
 ### 2.4 Vorteile
 
@@ -66,11 +69,20 @@
 
 ## 3 Vergleich der Time Series Databases
 ### 3.1 InfluxDB
-[3.1.1]
+[3.1.1] „InfluxDB Systemeigenschaften“. Zugegriffen 20. November 2021. https://db-engines.com/de/system/InfluxDB.
 
-[3.1.2]
+[3.1.2] „InfluxDB data schema | InfluxDB OSS 2.0 Documentation“. Zugegriffen 23. Dezember 2021. https://docs.influxdata.com/influxdb/v2.0/reference/key-concepts/data-schema/.
 
-[3.1.3] 
+[3.1.3] „Simplifying InfluxDB: Shards and Retention Policies | InfluxData“. Zugegriffen 23. Dezember 2021. https://www.influxdata.com/blog/influxdb-shards-retention-policies/.
+
+[3.1.4] „Sharding - DB-Engines Enzyklopädie“. Zugegriffen 23. Dezember 2021. https://db-engines.com/de/article/Sharding.
+
+[3.1.5] Community. „Getting Started with Go and InfluxDB“. InfluxData (blog), 19. November 2021. https://www.influxdata.com/blog/getting-started-go-influxdb/.
+
+[3.1.6] „Time Series DBMS are the database category with the fastest increase in popularity“. Zugegriffen 23. Dezember 2021. https://db-engines.com/de/blog_post/62).
+
+[3.1.7] „Schemafreiheit - DB-Engines Enzyklopädie“. Zugegriffen 23. Dezember 2021. https://db-engines.com/de/article/Schemafreiheit.
+
 
 ### 3.2 GridDB
 [3.2.1]
