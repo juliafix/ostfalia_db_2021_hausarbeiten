@@ -1,7 +1,7 @@
 # 1 Einleitung
 
 Im Zeitalter von Big Data, dem Aufkommen des Internet der Dinge oder auch der Künstlichen Intelligenz wächst das Aufkommen von zeitindexierten Daten. 
-Es gibt kaum noch Bereiche, die nicht auf die Verarbeitung von zeitbasierten Daten setzen und für die der Einsatz einer Zeitreihendatenbank einen Mehrwert liefern kann.  
+Es gibt kaum noch Bereiche, die nicht auf die Verarbeitung von zeitbasierten Daten setzen und für die der Einsatz einer Zeitreihendatenbank einen Mehrwert liefern kann.  <!-- test -->
 
 Zeitreihendatenbanken haben sich in den vergangenen Jahren zu einer der wichtigsten Datenbankmanagementsystemen hochgearbeitet und sich durch eine spezielle funktionsweise gegenüber anderen Datenbanken durchsetzten können.  
 In dieser Arbeit werden diese Vorteile aufgegriffen und anhand ausgewählter Zeitreihendatenbanken detaillierter beschrieben.  
