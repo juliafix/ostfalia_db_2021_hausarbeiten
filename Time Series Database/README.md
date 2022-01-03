@@ -1,12 +1,9 @@
 # Time Series Database
 
 ## Autoren
-
-| Name                | Matrikelnummer   | Hochschule                           | 
-| :---                |    :---          |        :---                          | 
-| Julia Fix           |            | Technische Hochschule Brandenburg    | 
-| Grit Kohlmann       |            | Technische Hochschule Brandenburg    | 
-| Anna Nikolaides     |            | Berliner Hochschule für Technik      | 
+Julia Fix\
+Grit Kohlmann\
+Anna Nikolaides
 
 ## Inhaltsverzeichnis
 1. [Einleitung](1%20Einleitung.md)
