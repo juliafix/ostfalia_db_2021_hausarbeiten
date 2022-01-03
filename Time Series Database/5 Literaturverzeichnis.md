@@ -44,7 +44,6 @@
 
 [2.3.6] Stephens, Rachel. „The State of the Time Series Database Market“. Alt + E S V, 3. April 2018. https://redmonk.com/rstephens/2018/04/03/the-state-of-the-time-series-database-market/.
 
-
 ### 2.4 Vorteile
 
 [2.4.1] Database trends: The rise of the time-series database. [Online]. Verfügbar unter: https://venturebeat.com/2021/01/15/database-trends-the-rise-of-the-time-series-database/ (Zugriff am: 21. Dezember 2021).
@@ -83,13 +82,42 @@
 
 [3.1.7] „Schemafreiheit - DB-Engines Enzyklopädie“. Zugegriffen 23. Dezember 2021. https://db-engines.com/de/article/Schemafreiheit.
 
-
 ### 3.2 GridDB
-[3.2.1]
+[3.2.1] GridDB Systemeigenschaften. [Online]. Verfügbar unter: https://db-engines.com/de/system/GridDB (Zugriff am: 28. Dezember 2021).
 
-[3.2.2]
+[3.2.2] O. Stampflee, NoSQL Database Architectural Comparison. [Online]. Verfügbar unter: https://griddb.net/en/docs/NoSQL_Database_Architectural_Comparison.pdf. (Zugriff am: 30. Dezember 2021).
 
-[3.2.3] 
+[3.2.3] GridDB technical reference. [Online]. Verfügbar unter: https://www.toshiba.com/solutions/content/GridDB_TechnicalReference.html (Zugriff am: 29. Dezember 2021).
+
+[3.2.4] E. Schicker, Datenbanken und SQL: Eine praxisorientierte Einführung mit Anwendungen in Oracle, SQL Server und MySQL, 5. Aufl. Wiesbaden: Springer Vieweg, 2017.
+
+[3.2.5] D. Fasel und A. Meier, Big data: Grundlagen, Systeme und Nutzungspotenziale. Wiesbaden: Springer Vieweg, 2016.
+
+[3.2.6] Key-Value Stores - DB-Engines Enzyklopädie. [Online]. Verfügbar unter: https://db-engines.com/de/article/Key-Value+Stores (Zugriff am: 25. Dezember 2021).
+
+[3.2.7] A. Meier und M. Kaufmann, SQL & NoSQL Databases: Models, languages, consistency options and architectures for Big Data Management. Wiesbaden, Heidelberg: Springer Vieweg, 2019.
+
+[3.2.8] I. Imru, „Time Series Data and GridDB - GridDB - Medium“, GridDB, 27. Feb. 2019, 2019. [Online]. Verfügbar unter: https://medium.com/griddb/time-series-data-and-griddb-abc9c26f91de. Zugriff am: 4. November 2021.
+
+[3.2.9] GridDB Products | GridDB | TOSHIBA DIGITAL SOLUTIONS CORPORATION. [Online]. Verfügbar unter: https://www.global.toshiba/ww/products-solutions/ai-iot/griddb/product/lineup.html (Zugriff am: 21. Dezember 2021).
+
+[3.2.10] Wide vs Narrow Data Tables | GridDB | Docs. [Online]. Verfügbar unter: https://docs.griddb.net/tutorial/wide-narrow/#introduction (Zugriff am: 3. Januar 2022).
+
+[3.2.11] GridDB Reliability and Robustness. [Online]. Verfügbar unter: https://griddb.net/en/docs/GridDB_Reliability_and_Robustness_1.0.7.pdf (Zugriff am: 30. Dezember 2021).
+
+[3.2.12] What is GridDB | GridDB | Docs. [Online]. Verfügbar unter: https://docs.griddb.net/about/ (Zugriff am: 30. Dezember 2021).
+
+[3.2.13] J. Pascascio, „Using GridDB’s C/Python/Ruby APIs“, Fixstars, 21. Sep. 2017, 2017. [Online]. Verfügbar unter: https://griddb.net/en/blog/using-griddbs-cpythonruby-apis/. Zugriff am: 21. Dezember 2021.
+
+[3.2.14] GridDB API Reference. [Online]. Verfügbar unter: https://www.toshiba.com/solutions/content/GridDB_API_Reference.html (Zugriff am: 1. Januar 2022).
+
+[3.2.15] Factory IoT Platform | TOSHIBA DIGITAL SOLUTIONS CORPORATION. [Online]. Verfügbar unter: https://www.toshiba-sol.co.jp/en/industry/meister_next/?_ga=2.40670306.1790652221.1641133161-1699321142.1640635607 (Zugriff am: 2. Januar 2022).
+
+[3.2.16] Owen, „Three Examples of GridDB in the IoT Industry“, Fixstars, 27. März 2017, 2017. [Online]. Verfügbar unter: https://griddb.net/en/blog/three-examples-griddb-iot-industry/. Zugriff am: 2. Januar 2022.
+
+[3.2.17] Aki, „GridDB use case in the automotive industry“, Fixstars, 30. Jan. 2018, 2018. [Online]. Verfügbar unter: https://griddb.net/en/blog/griddb-automotive/. Zugriff am: 2. Januar 2022.
+
+[3.2.18] Aki, „GridDB complies with ACID“, Fixstars, 11. Juli 2017, 2017. [Online]. Verfügbar unter: https://griddb.net/en/blog/griddb-complies-acid/. Zugriff am: 3. Januar 2022.
 
 ### 3.3 TimescaleDB
 [3.3.1] TimescaleDB - Timeseries database for PostgreSQL. [Online]. Verfügbar unter: https://docs.timescale.com/timescaledb/latest/ (Zugriff am: 22. Dezember 2021).
