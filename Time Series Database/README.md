@@ -4,7 +4,7 @@
 
 | Name                | Matrikelnummer   | Hochschule                           | 
 | :---                |    :---          |        :---                          | 
-| Julia Fix           | 20220833         | Technische Hochschule Brandenburg    | 
+| Julia Fix           |            | Technische Hochschule Brandenburg    | 
 | Grit Kohlmann       |            | Technische Hochschule Brandenburg    | 
 | Anna Nikolaides     |            | Berliner Hochschule für Technik      | 
 
