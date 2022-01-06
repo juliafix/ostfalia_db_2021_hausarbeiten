@@ -19,4 +19,4 @@ Anna Nikolaides
 3.2. [GridDB](3%20Vergleich%20von%20TSDB/3.2%20GridDB.md)\
 3.3. [TimescaleDB](3%20Vergleich%20von%20TSDB/3.3%20TimescaleDB.md)
 4. [Fazit](4%20Fazit.md)
-5. [Literaturverzeichnis](5%20Literaturverzeichnis.md)
+5. [Literaturverzeichnis](Literaturverzeichnis.md)
