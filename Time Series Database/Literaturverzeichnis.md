@@ -1,5 +1,9 @@
 # Literaturverzeichnis
 
+## 1 Einleitung
+
+[1.1.1] DB-Engines Ranking Categories. [Online]. Verfügbar unter: https://db-engines.com/en/ranking_categories (Zugriff am: 23. Dezember 2021).
+
 ## 2 Grundlagen
 ### 2.1 Begriffsklärung
 [2.1.1] K. North, Wissensorientierte Unternehmensführung: Wissensmanagement im digitalen Wandel, 7. Aufl. Wiesbaden: Springer Gabler, 2021.
