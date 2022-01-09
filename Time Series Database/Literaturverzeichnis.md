@@ -78,9 +78,11 @@
 
 [3.1.5] Community. „Getting Started with Go and InfluxDB“. InfluxData (blog), 19. November 2021. https://www.influxdata.com/blog/getting-started-go-influxdb/.
 
-[3.1.6] „Time Series DBMS are the database category with the fastest increase in popularity“. Zugegriffen 23. Dezember 2021. https://db-engines.com/de/blog_post/62).
+[3.1.6] „Schemafreiheit - DB-Engines Enzyklopädie“. Zugegriffen 23. Dezember 2021. https://db-engines.com/de/article/Schemafreiheit.
 
-[3.1.7] „Schemafreiheit - DB-Engines Enzyklopädie“. Zugegriffen 23. Dezember 2021. https://db-engines.com/de/article/Schemafreiheit.
+[3.1.7] „Downsampling and data retention | InfluxDB OSS 1.7 Documentation“. Zugegriffen 8. Januar 2022. https://docs.influxdata.com/influxdb/v1.7/guides/downsampling_and_retention/.
+
+[3.1.8] „Time Series DBMS are the database category with the fastest increase in popularity“. Zugegriffen 23. Dezember 2021. https://db-engines.com/de/blog_post/62).
 
 ### 3.2 GridDB
 [3.2.1] GridDB Systemeigenschaften. [Online]. Verfügbar unter: https://db-engines.com/de/system/GridDB (Zugriff am: 28. Dezember 2021).
