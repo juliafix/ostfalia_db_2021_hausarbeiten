@@ -48,7 +48,7 @@
 
 [2.3.6] Stephens, Rachel. „The State of the Time Series Database Market“. Alt + E S V, 3. April 2018. https://redmonk.com/rstephens/2018/04/03/the-state-of-the-time-series-database-market/.
 
-### 2.4 Vorteile
+### 2.4 Vor- und Nachteile
 
 [2.4.1] Database trends: The rise of the time-series database. [Online]. Verfügbar unter: https://venturebeat.com/2021/01/15/database-trends-the-rise-of-the-time-series-database/ (Zugriff am: 21. Dezember 2021).
 
