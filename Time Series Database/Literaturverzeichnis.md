@@ -68,19 +68,21 @@
 ### 3.1 InfluxDB
 [3.1.1] „InfluxDB Systemeigenschaften“. Zugegriffen 20. November 2021. https://db-engines.com/de/system/InfluxDB.
 
-[3.1.2] „InfluxDB data schema | InfluxDB OSS 2.0 Documentation“. Zugegriffen 23. Dezember 2021. https://docs.influxdata.com/influxdb/v2.0/reference/key-concepts/data-schema/.
+[3.1.2] „InfluxDB key concepts“. Zugegriffen 20. Dezember 2022. https://docs.influxdata.com/influxdb/v1.8/concepts/key_concepts/.
 
-[3.1.3] „Simplifying InfluxDB: Shards and Retention Policies | InfluxData“. Zugegriffen 23. Dezember 2021. https://www.influxdata.com/blog/influxdb-shards-retention-policies/.
+[3.1.3] „InfluxDB data schema | InfluxDB OSS 2.0 Documentation“. Zugegriffen 23. Dezember 2021. https://docs.influxdata.com/influxdb/v2.0/reference/key-concepts/data-schema/.
 
-[3.1.4] „Sharding - DB-Engines Enzyklopädie“. Zugegriffen 23. Dezember 2021. https://db-engines.com/de/article/Sharding.
+[3.1.4] „Simplifying InfluxDB: Shards and Retention Policies | InfluxData“. Zugegriffen 23. Dezember 2021. https://www.influxdata.com/blog/influxdb-shards-retention-policies/.
 
-[3.1.5] Community. „Getting Started with Go and InfluxDB“. InfluxData (blog), 19. November 2021. https://www.influxdata.com/blog/getting-started-go-influxdb/.
+[3.1.5] „Sharding - DB-Engines Enzyklopädie“. Zugegriffen 23. Dezember 2021. https://db-engines.com/de/article/Sharding.
 
-[3.1.6] „Schemafreiheit - DB-Engines Enzyklopädie“. Zugegriffen 23. Dezember 2021. https://db-engines.com/de/article/Schemafreiheit.
+[3.1.6] Community. „Getting Started with Go and InfluxDB“. InfluxData (blog), 19. November 2021. https://www.influxdata.com/blog/getting-started-go-influxdb/.
 
-[3.1.7] „Downsampling and data retention | InfluxDB OSS 1.7 Documentation“. Zugegriffen 8. Januar 2022. https://docs.influxdata.com/influxdb/v1.7/guides/downsampling_and_retention/.
+[3.1.7] „Schemafreiheit - DB-Engines Enzyklopädie“. Zugegriffen 23. Dezember 2021. https://db-engines.com/de/article/Schemafreiheit.
 
-[3.1.8] „Time Series DBMS are the database category with the fastest increase in popularity“. Zugegriffen 23. Dezember 2021. https://db-engines.com/de/blog_post/62).
+[3.1.8] „Downsampling and data retention | InfluxDB OSS 1.7 Documentation“. Zugegriffen 8. Januar 2022. https://docs.influxdata.com/influxdb/v1.7/guides/downsampling_and_retention/.
+
+[3.1.9] „Time Series DBMS are the database category with the fastest increase in popularity“. Zugegriffen 23. Dezember 2021. https://db-engines.com/de/blog_post/62).
 
 ### 3.2 GridDB
 [3.2.1] GridDB Systemeigenschaften. [Online]. Verfügbar unter: https://db-engines.com/de/system/GridDB (Zugriff am: 28. Dezember 2021).
