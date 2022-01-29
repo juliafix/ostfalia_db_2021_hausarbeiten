@@ -65,7 +65,7 @@
 [2.5.3] Zeitreihendatenbank: Was es ist und wie es funktioniert. [Online]. Verfügbar unter: https://raima.com/de/time-series-database-what-it-is-and-how-it-works/ (Zugriff am: 22. Dezember 2021).
 
 ## 3 Vergleich der Time Series Databases
-### 3.1 InfluxDB
+### 3.1 InfluxDB<!-- die Titel sollten vllt nicht in Anführungszeichen angegeben werden-->
 [3.1.1] „InfluxDB Systemeigenschaften“. Zugegriffen 20. November 2021. https://db-engines.com/de/system/InfluxDB.
 
 [3.1.2] „InfluxDB key concepts“. Zugegriffen 20. Dezember 2022. https://docs.influxdata.com/influxdb/v1.8/concepts/key_concepts/.
@@ -99,7 +99,7 @@
 
 [3.2.7] A. Meier und M. Kaufmann, SQL & NoSQL Databases: Models, languages, consistency options and architectures for Big Data Management. Wiesbaden, Heidelberg: Springer Vieweg, 2019.
 
-[3.2.8] I. Imru, „Time Series Data and GridDB - GridDB - Medium“, GridDB, 27. Feb. 2019, 2019. [Online]. Verfügbar unter: https://medium.com/griddb/time-series-data-and-griddb-abc9c26f91de. Zugriff am: 4. November 2021.
+[3.2.8] I. Imru. Time Series Data and GridDB - GridDB - Medium. GridDB. 2019. [Online]. Verfügbar unter: https://medium.com/griddb/time-series-data-and-griddb-abc9c26f91de. Zugriff am: 4. November 2021.
 
 [3.2.9] GridDB Products | GridDB | TOSHIBA DIGITAL SOLUTIONS CORPORATION. [Online]. Verfügbar unter: https://www.global.toshiba/ww/products-solutions/ai-iot/griddb/product/lineup.html (Zugriff am: 21. Dezember 2021).
 
@@ -109,17 +109,17 @@
 
 [3.2.12] What is GridDB | GridDB | Docs. [Online]. Verfügbar unter: https://docs.griddb.net/about/ (Zugriff am: 30. Dezember 2021).
 
-[3.2.13] J. Pascascio, „Using GridDB’s C/Python/Ruby APIs“, Fixstars, 21. Sep. 2017, 2017. [Online]. Verfügbar unter: https://griddb.net/en/blog/using-griddbs-cpythonruby-apis/. Zugriff am: 21. Dezember 2021.
+[3.2.13] J. Pascascio. Using GridDB’s C/Python/Ruby APIs. Fixstars. 2017. [Online]. Verfügbar unter: https://griddb.net/en/blog/using-griddbs-cpythonruby-apis/. Zugriff am: 21. Dezember 2021.
 
 [3.2.14] GridDB API Reference. [Online]. Verfügbar unter: https://www.toshiba.com/solutions/content/GridDB_API_Reference.html (Zugriff am: 1. Januar 2022).
 
 [3.2.15] Factory IoT Platform | TOSHIBA DIGITAL SOLUTIONS CORPORATION. [Online]. Verfügbar unter: https://www.toshiba-sol.co.jp/en/industry/meister_next/?_ga=2.40670306.1790652221.1641133161-1699321142.1640635607 (Zugriff am: 2. Januar 2022).
 
-[3.2.16] Owen, „Three Examples of GridDB in the IoT Industry“, Fixstars, 27. März 2017, 2017. [Online]. Verfügbar unter: https://griddb.net/en/blog/three-examples-griddb-iot-industry/. Zugriff am: 2. Januar 2022.
+[3.2.16] Owen. Three Examples of GridDB in the IoT Industry. Fixstars. 2017. [Online]. Verfügbar unter: https://griddb.net/en/blog/three-examples-griddb-iot-industry/. Zugriff am: 2. Januar 2022.
 
-[3.2.17] Aki, „GridDB use case in the automotive industry“, Fixstars, 30. Jan. 2018, 2018. [Online]. Verfügbar unter: https://griddb.net/en/blog/griddb-automotive/. Zugriff am: 2. Januar 2022.
+[3.2.17] Aki. GridDB use case in the automotive industry. Fixstars. 2018. [Online]. Verfügbar unter: https://griddb.net/en/blog/griddb-automotive/. Zugriff am: 2. Januar 2022.
 
-[3.2.18] Aki, „GridDB complies with ACID“, Fixstars, 11. Juli 2017, 2017. [Online]. Verfügbar unter: https://griddb.net/en/blog/griddb-complies-acid/. Zugriff am: 3. Januar 2022.
+[3.2.18] Aki. GridDB complies with ACID. Fixstars. 2017. [Online]. Verfügbar unter: https://griddb.net/en/blog/griddb-complies-acid/. Zugriff am: 3. Januar 2022.
 
 ### 3.3 TimescaleDB
 [3.3.1] TimescaleDB - Timeseries database for PostgreSQL. [Online]. Verfügbar unter: https://docs.timescale.com/timescaledb/latest/ (Zugriff am: 22. Dezember 2021).
