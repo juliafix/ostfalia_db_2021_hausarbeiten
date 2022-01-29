@@ -1,6 +1,17 @@
 # 4 Fazit
 
-Die Ausarbeitung hat sich mit dem Vergleich der TSDBs InfluxDB, GridDB und TimescaleDB beschäftigt. 
+Die Arbeit beschäftigt sich mit Open-Source-Datenbankmanagementsystemen für Zeitreihen, auch *Time Series Database* genannt. Drei Zeitreihendatenbanken wurden dabei beispielhaft für unterschiedliche Datenbankmodelle eingehender betrachtet: InfluxDB, GridDB und TimescaleDB. Jedes dieser Time Series DBMS vereint mehrere Datenbankmodelle. Während alle drei Zeitreihendatenbanken-Datenbankmanagementsysteme primär ein Time Series DBMS sind, unterscheiden sie sich in ihrem sekundären Ansatz des Datenbankmodells. Die mit Abstand populärste Time Series Database *InfluxDB* basiert sekundär auf dem Datenbankmodell des *Spatial DBMS*. *GridDB* verwendet als sekundäre Datenbankmodelle den *Key-Value Store* und das *relationale DBMS*. *TimescaleDB* ist als sekundäres Datenbankmodell ein relationales DBMS. 
+Die drei Time Series DBMS wurden nach verschiedenen Kriterien analysiert und verglichen. Ein Vergleichskriterium war das Datenmodell. Das Datenmodell von *InfluxDB* verwendet *Tag-Sets* und basiert auf *Measurements*, die Tabellen sind und Messwerte enthalten. InfluxDB hat kein festes Schema. Dies ermöglicht eine große Flexibilität und verringert den administrativen Aufwand für das Einrichten einer relationalen Struktur. *GridDB* setzt dagegen auf das *Key-Container*-Datenmodell, wobei die *Container* entweder *Time Series* mit Zeitwerten als *Key* oder *Collections* mit beliebigen Werten als *Key* enthalten können. GridDB verbindet mit seinem Datenmodell die Vorteile von klassischen relationalen DBMSen und NoSQL-DBMSen. *TimescaleDB*  
+
+
+Im Zeitalter von Big Data, dem Aufkommen des Internet der Dinge oder auch der Künstlichen Intelligenz wächst das Aufkommen von zeitindizierten Daten. Es gibt kaum noch Bereiche, die nicht auf die Verarbeitung von zeitbasierten Daten setzen und für die der Einsatz einer Zeitreihendatenbank einen Mehrwert liefern kann.
+
+Zeitreihen-DBMS haben sich in den vergangenen Jahren zu einem der wichtigsten Datenbankmanagementsysteme entwickelt und sich durch eine spezielle Funktionsweise gegenüber anderen Datenbanken durchsetzen können. In dieser Arbeit werden diese Vorteile aufgegriffen und anhand ausgewählter Zeitreihendatenbanken detaillierter beschrieben.
+Zu Beginn gibt die Arbeit einen Überblick über die notwendigen Grundlagen von Zeitreihendatenbanken. Durch die Erklärung von Big Data, dessen zunehmenden Aufkommen und der Zusammenhang zu leistungsstarken Datenbanken gibt eine Basis, welche Idee hinter der Struktur und dem Erfolg von Zeitreihendatenbanken steht. Anschließend folgt die Beschreibung erster Umsetzungen für die Verarbeitung von Zeitreihendaten sowie ein Überblick über den aktuellen Stand und unterschiedliche Einsatzbereiche von Zeitreihendatenbanken.
+Neben Vorteilen wird außerdem auf auftretende Schwierigkeiten, die sich im Hinblick auf Big Data ergeben, hingewiesen.
+
+Für den Vergleich werden die Zeitreihendatenbanken InfluxDB, GridDB und TimescaleDB nach zuvor definierten Kriterien analysiert.
+Für die Auswahl dieser Datenbanken wurde sich auf das Ranking von DB Engine gestützt und sich für populäre Datenbanken entschieden, die sich in ihrer Funktionsweise voneinander unterscheiden [1.1.1]. Im Vordergrund des Vergleichs stehen Aspekte der Datenbankstruktur, die Partionierungsmechanismen, Replikationsmechanismen, unterstützte Programmiersprachen, APIs und andere Konzeptzugriffe, Einsatzbereiche sowie Vorteile, Besonderheiten und Nachteile.
 
 unterschiedliche Lösungsansätze
 <!--
