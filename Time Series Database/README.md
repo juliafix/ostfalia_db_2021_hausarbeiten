@@ -17,6 +17,6 @@ Anna Nikolaides
 3.1 [InfluxDB](3%20Vergleich%20von%20TSDB/3.1%20InfluxDB.md)\
 3.2 [GridDB](3%20Vergleich%20von%20TSDB/3.2%20GridDB.md)\
 3.3 [TimescaleDB](3%20Vergleich%20von%20TSDB/3.3%20TimescaleDB.md)\
-3.4 [Vergleich im Überblick](3%20Vergleich%20von%20TSDB/3.3%203.4%20Vergleich%20im%20Überblick.md)\
+3.4 [Vergleich im Überblick](3%20Vergleich%20von%20TSDB/3.4%20Vergleich%20im%20Überblick.md)\
 4 [Fazit](4%20Fazit.md)\
 [Literaturverzeichnis](Literaturverzeichnis.md)
