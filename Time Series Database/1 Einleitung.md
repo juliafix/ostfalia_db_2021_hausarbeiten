@@ -11,4 +11,4 @@ Neben Vorteilen wird außerdem auf auftretende Schwierigkeiten, die sich im Hinb
 
 Für den Vergleich werden die Zeitreihendatenbanken InfluxDB, GridDB und TimescaleDB nach zuvor definierten Kriterien analysiert.   
 Für die Auswahl dieser Datenbanken wurde sich auf das Ranking von DB Engine gestützt und sich für populäre Datenbanken entschieden, die sich in ihrer Funktionsweise voneinander unterscheiden [1.1.1].
-Im Vordergrund des Vergleichs stehen Aspekte der Datenbankstruktur, die Partionierungsmechanismen, Replikationsmechanismen, unterstützte Programmiersprachen, APIs und andere Konzeptzugriffe, Einsatzbereiche sowie Vorteile, Besonderheiten und Nachteile.   
+Im Vordergrund des Vergleichs stehen Aspekte des Datenmodells, die Partionierungsmechanismen, Replikationsmechanismen, unterstützte Programmiersprachen, APIs und andere Konzeptzugriffe, Einsatzbereiche sowie Vorteile, Besonderheiten und Nachteile.   
